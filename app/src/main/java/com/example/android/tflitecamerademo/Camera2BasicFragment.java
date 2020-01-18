@@ -81,8 +81,10 @@ public class Camera2BasicFragment extends Fragment
   private final Object lock = new Object();
   private boolean runClassifier = false;
   private boolean checkedPermissions = false;
-  private TextView textView;
+  public static TextView textView;
   private ImageClassifier classifier;
+
+  static String myString;
 
   /** Max preview width that is guaranteed by Camera2 API */
   private static final int MAX_PREVIEW_WIDTH = 1920;
@@ -210,10 +212,15 @@ public class Camera2BasicFragment extends Fragment
             @Override
             public void run() {
               textView.setText(text);
-//              Toast.makeText(getContext(), "hii", Toast.LENGTH_SHORT).show();
             }
           });
     }
+  }
+
+  public static String getFinalAnswer(){
+    myString = textView.getText().toString();
+    return myString;
+
   }
 
   /**

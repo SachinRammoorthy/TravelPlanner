@@ -17,6 +17,8 @@ package com.example.android.tflitecamerademo;
 
 import android.app.Activity;
 import android.os.Bundle;
+import android.os.Handler;
+import android.widget.Toast;
 
 /** Main {@code Activity} class for the Camera app. */
 public class CameraActivity extends Activity {
@@ -32,6 +34,27 @@ public class CameraActivity extends Activity {
           .commit();
     }
 
+    Toast.makeText(CameraActivity.this, "Please hold the camera steady for 3 seconds", Toast.LENGTH_SHORT).show();
+
+    getResult();
+
+  }
+
+  public void getResult(){
+    final Handler handler = new Handler();
+    handler.postDelayed(new Runnable() {
+      @Override
+      public void run() {
+        try{
+          String aString = Camera2BasicFragment.getFinalAnswer().trim().toLowerCase();
+          String finalString = aString.substring(5, aString.indexOf(":"));
+          Toast.makeText(CameraActivity.this, finalString, Toast.LENGTH_LONG).show();
+        } catch (NullPointerException e){
+          Toast.makeText(CameraActivity.this, "Not found", Toast.LENGTH_LONG).show();
+          //return "Not found";
+        }
+      }
+    }, 3000);
   }
 
 
