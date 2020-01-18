@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:weightSum="3"
+    tools:context="com.example.android.tflitecamerademo.StartActivity">
+
+
+    <android.support.v7.widget.CardView
+        android:elevation="2dp"
+        android:id="@+id/discover"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        app:cardCornerRadius="5dp"
+        android:layout_height="0dp"
+        android:layout_margin="5dp">
+
+
+        <ImageView
+            android:id="@+id/img"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/eiffel1"/>
+
+        <TextView
+            android:id="@+id/name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Discover"
+            android:textColor="#ffffff"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:layout_gravity="bottom"
+            android:padding="20dp"
+            android:layout_marginBottom="10dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Look around you!"
+            android:textColor="#ffffff"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:layout_gravity="bottom"
+            android:paddingLeft="20dp"
+            android:paddingBottom="10dp"/>
+
+    </android.support.v7.widget.CardView>
+
+
+
+
+    <android.support.v7.widget.CardView
+        android:elevation="2dp"
+        android:id="@+id/plan"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        app:cardCornerRadius="5dp"
+        android:layout_height="0dp"
+        android:layout_margin="5dp">
+
+
+        <ImageView
+            android:id="@+id/img2"
+            android:layout_width="match_parent"
+            android:layout_height="230dp"
+            android:background="@drawable/flightpath"/>
+
+        <TextView
+            android:id="@+id/name2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Plan A Trip"
+            android:textColor="#ffffff"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:layout_gravity="bottom"
+            android:padding="20dp"
+            android:layout_marginBottom="10dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Get the best routes, prices, and information"
+            android:textColor="#ffffff"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:layout_gravity="bottom"
+            android:paddingLeft="20dp"
+            android:paddingBottom="10dp"/>
+
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        android:elevation="2dp"
+        android:id="@+id/explore"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        app:cardCornerRadius="5dp"
+        android:layout_height="0dp"
+        android:layout_margin="5dp">
+
+
+        <ImageView
+            android:id="@+id/img3"
+            android:layout_width="match_parent"
+            android:layout_height="230dp"
+            android:background="@drawable/liberty"/>
+
+        <TextView
+            android:id="@+id/name3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Explore"
+            android:textColor="#ffffff"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:layout_gravity="bottom"
+            android:padding="20dp"
+            android:layout_marginBottom="10dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Find out more about your favourite monuments!"
+            android:textColor="#ffffff"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:layout_gravity="bottom"
+            android:paddingLeft="20dp"
+            android:paddingBottom="10dp"/>
+
+    </android.support.v7.widget.CardView>
+
+
+</LinearLayout>
