@@ -16,6 +16,7 @@ limitations under the License.
 package com.example.android.tflitecamerademo;
 
 import android.app.Activity;
+import android.content.Intent;
 import android.os.Bundle;
 import android.os.Handler;
 import android.widget.Toast;
@@ -49,6 +50,11 @@ public class CameraActivity extends Activity {
           String aString = Camera2BasicFragment.getFinalAnswer().trim().toLowerCase();
           String finalString = aString.substring(5, aString.indexOf(":"));
           Toast.makeText(CameraActivity.this, finalString, Toast.LENGTH_LONG).show();
+
+          Intent intent = new Intent(CameraActivity.this, InfoActivity.class);
+          intent.putExtra("LANDMARK_NAME", finalString);
+          startActivity(intent);
+
         } catch (NullPointerException e){
           Toast.makeText(CameraActivity.this, "Not found", Toast.LENGTH_LONG).show();
           //return "Not found";

@@ -1,20 +1,20 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /Users/sachin_rammoorthy/Downloads/TravelPlanner/app/src/main/AndroidManifest.xml:2:1-31:12
-INJECTED from /Users/sachin_rammoorthy/Downloads/TravelPlanner/app/src/main/AndroidManifest.xml:2:1-31:12
-INJECTED from /Users/sachin_rammoorthy/Downloads/TravelPlanner/app/src/main/AndroidManifest.xml:2:1-31:12
-INJECTED from /Users/sachin_rammoorthy/Downloads/TravelPlanner/app/src/main/AndroidManifest.xml:2:1-31:12
+ADDED from /Users/sachin_rammoorthy/Downloads/TravelPlanner/app/src/main/AndroidManifest.xml:2:1-34:12
+INJECTED from /Users/sachin_rammoorthy/Downloads/TravelPlanner/app/src/main/AndroidManifest.xml:2:1-34:12
+INJECTED from /Users/sachin_rammoorthy/Downloads/TravelPlanner/app/src/main/AndroidManifest.xml:2:1-34:12
+INJECTED from /Users/sachin_rammoorthy/Downloads/TravelPlanner/app/src/main/AndroidManifest.xml:2:1-34:12
 MERGED from [com.android.support:design:28.0.0] /Users/sachin_rammoorthy/.gradle/caches/transforms-1/files-1.1/design-28.0.0.aar/d77ea5ec65dca8b9eb2bef91e3f3e041/AndroidManifest.xml:17:1-24:12
+MERGED from [com.rapidapi:rapidconnect-android:0.1] /Users/sachin_rammoorthy/.gradle/caches/transforms-1/files-1.1/rapidconnect-android-0.1.aar/8e20c435186a5fef6ca397c24fdb6533/AndroidManifest.xml:2:1-17:12
 MERGED from [com.android.support:appcompat-v7:28.0.0] /Users/sachin_rammoorthy/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/215006870cb9ad8b201ed5ea70fe0952/AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /Users/sachin_rammoorthy/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.3.aar/1fe55902e85b05ba3d7b5ca408cc346b/AndroidManifest.xml:2:1-11:12
 MERGED from [com.android.support:support-v13:28.0.0] /Users/sachin_rammoorthy/.gradle/caches/transforms-1/files-1.1/support-v13-28.0.0.aar/cd3bd404d5dfc38610dc63a232fdcf93/AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:support-v4:28.0.0] /Users/sachin_rammoorthy/.gradle/caches/transforms-1/files-1.1/support-v4-28.0.0.aar/6d535861457a4fbfa221b5a8e4d0415b/AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:support-fragment:28.0.0] /Users/sachin_rammoorthy/.gradle/caches/transforms-1/files-1.1/support-fragment-28.0.0.aar/d3d56ed923bec46c21d5815d77387457/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:animated-vector-drawable:28.0.0] /Users/sachin_rammoorthy/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-28.0.0.aar/5d529de96307de4871304fb999c857a5/AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:recyclerview-v7:28.0.0] /Users/sachin_rammoorthy/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-28.0.0.aar/da86a0e2d8c9d9bf47abc4be9b1e7c30/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] /Users/sachin_rammoorthy/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-28.0.0.aar/5d529de96307de4871304fb999c857a5/AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:support-core-ui:28.0.0] /Users/sachin_rammoorthy/.gradle/caches/transforms-1/files-1.1/support-core-ui-28.0.0.aar/23f76294b052791f8b6b4bd6968b8f80/AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:support-core-utils:28.0.0] /Users/sachin_rammoorthy/.gradle/caches/transforms-1/files-1.1/support-core-utils-28.0.0.aar/73025fd082642d99cfd7969f17f20402/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-vector-drawable:28.0.0] /Users/sachin_rammoorthy/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-28.0.0.aar/58a8384fca5d2e9503f9c5e63ac30b3f/AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:transition:28.0.0] /Users/sachin_rammoorthy/.gradle/caches/transforms-1/files-1.1/transition-28.0.0.aar/c37a627a5debb9d2c4b61a3eae18569b/AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:loader:28.0.0] /Users/sachin_rammoorthy/.gradle/caches/transforms-1/files-1.1/loader-28.0.0.aar/8dddf2caed3dfba19125d01d85c3a622/AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:viewpager:28.0.0] /Users/sachin_rammoorthy/.gradle/caches/transforms-1/files-1.1/viewpager-28.0.0.aar/4cb3f18f3e27b7816fa88cbe1f6eb3fe/AndroidManifest.xml:17:1-22:12
@@ -25,9 +25,9 @@ MERGED from [com.android.support:customview:28.0.0] /Users/sachin_rammoorthy/.gr
 MERGED from [com.android.support:swiperefreshlayout:28.0.0] /Users/sachin_rammoorthy/.gradle/caches/transforms-1/files-1.1/swiperefreshlayout-28.0.0.aar/2c1f175860624cf3222c0346627b9ba8/AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:asynclayoutinflater:28.0.0] /Users/sachin_rammoorthy/.gradle/caches/transforms-1/files-1.1/asynclayoutinflater-28.0.0.aar/bd802dcb218e3b1dca9a596c2cee6c88/AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:support-media-compat:28.0.0] /Users/sachin_rammoorthy/.gradle/caches/transforms-1/files-1.1/support-media-compat-28.0.0.aar/ee6adb639e47ec5843afd899b4e4f4a6/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:28.0.0] /Users/sachin_rammoorthy/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-28.0.0.aar/58a8384fca5d2e9503f9c5e63ac30b3f/AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:support-compat:28.0.0] /Users/sachin_rammoorthy/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/0fa81edfff8e8f5162f369552820261b/AndroidManifest.xml:17:1-24:12
 MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/sachin_rammoorthy/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/8abbacf0e3c780f41aa05fd2a6a32532/AndroidManifest.xml:17:1-25:12
-MERGED from [com.android.support:cursoradapter:28.0.0] /Users/sachin_rammoorthy/.gradle/caches/transforms-1/files-1.1/cursoradapter-28.0.0.aar/355ff165aec11ea3cc789a4b7f86afcc/AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:cardview-v7:28.0.0] /Users/sachin_rammoorthy/.gradle/caches/transforms-1/files-1.1/cardview-v7-28.0.0.aar/c7451a31a15ec888c8139fb5780f61c6/AndroidManifest.xml:17:1-22:12
 MERGED from [android.arch.lifecycle:runtime:1.1.1] /Users/sachin_rammoorthy/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/e9c23293f6c31f151fc15dc8c993144e/AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:documentfile:28.0.0] /Users/sachin_rammoorthy/.gradle/caches/transforms-1/files-1.1/documentfile-28.0.0.aar/695540fb6fa772c7af970da587947b36/AndroidManifest.xml:17:1-22:12
@@ -35,31 +35,34 @@ MERGED from [com.android.support:localbroadcastmanager:28.0.0] /Users/sachin_ram
 MERGED from [com.android.support:print:28.0.0] /Users/sachin_rammoorthy/.gradle/caches/transforms-1/files-1.1/print-28.0.0.aar/b73c43097578b737ae4d897a6bda9759/AndroidManifest.xml:17:1-22:12
 MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /Users/sachin_rammoorthy/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.1.aar/fecfd9ef39341273fbaf5973e3f4fd60/AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:interpolator:28.0.0] /Users/sachin_rammoorthy/.gradle/caches/transforms-1/files-1.1/interpolator-28.0.0.aar/123dfa3b682266b36a2f12ba32fe901d/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:cursoradapter:28.0.0] /Users/sachin_rammoorthy/.gradle/caches/transforms-1/files-1.1/cursoradapter-28.0.0.aar/355ff165aec11ea3cc789a4b7f86afcc/AndroidManifest.xml:17:1-22:12
 MERGED from [android.arch.lifecycle:livedata:1.1.1] /Users/sachin_rammoorthy/.gradle/caches/transforms-1/files-1.1/livedata-1.1.1.aar/6c2a8f108f26ecf4279c6b09ee4bd8a9/AndroidManifest.xml:17:1-22:12
 MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /Users/sachin_rammoorthy/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.1.aar/48f065f22ed303cb948615b0b23fe4bd/AndroidManifest.xml:17:1-22:12
 MERGED from [android.arch.core:runtime:1.1.1] /Users/sachin_rammoorthy/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/a42d93d894f727f0e28798873cafd95e/AndroidManifest.xml:17:1-22:12
 MERGED from [org.tensorflow:tensorflow-lite:2.1.0] /Users/sachin_rammoorthy/.gradle/caches/transforms-1/files-1.1/tensorflow-lite-2.1.0.aar/6b585506bf0cc5f30606bce32306e533/AndroidManifest.xml:2:1-10:12
-INJECTED from /Users/sachin_rammoorthy/Downloads/TravelPlanner/app/src/main/AndroidManifest.xml:2:1-31:12
-INJECTED from /Users/sachin_rammoorthy/Downloads/TravelPlanner/app/src/main/AndroidManifest.xml:2:1-31:12
-INJECTED from /Users/sachin_rammoorthy/Downloads/TravelPlanner/app/src/main/AndroidManifest.xml:2:1-31:12
+INJECTED from /Users/sachin_rammoorthy/Downloads/TravelPlanner/app/src/main/AndroidManifest.xml:2:1-34:12
+INJECTED from /Users/sachin_rammoorthy/Downloads/TravelPlanner/app/src/main/AndroidManifest.xml:2:1-34:12
+INJECTED from /Users/sachin_rammoorthy/Downloads/TravelPlanner/app/src/main/AndroidManifest.xml:2:1-34:12
 	package
 		ADDED from /Users/sachin_rammoorthy/Downloads/TravelPlanner/app/src/main/AndroidManifest.xml:3:5-51
 		INJECTED from /Users/sachin_rammoorthy/Downloads/TravelPlanner/app/src/main/AndroidManifest.xml
 		INJECTED from /Users/sachin_rammoorthy/Downloads/TravelPlanner/app/src/main/AndroidManifest.xml
 	android:versionName
 		INJECTED from /Users/sachin_rammoorthy/Downloads/TravelPlanner/app/src/main/AndroidManifest.xml
-		ADDED from /Users/sachin_rammoorthy/Downloads/TravelPlanner/app/src/main/AndroidManifest.xml:2:1-31:12
+		ADDED from /Users/sachin_rammoorthy/Downloads/TravelPlanner/app/src/main/AndroidManifest.xml:2:1-34:12
 		INJECTED from /Users/sachin_rammoorthy/Downloads/TravelPlanner/app/src/main/AndroidManifest.xml
 	android:versionCode
 		INJECTED from /Users/sachin_rammoorthy/Downloads/TravelPlanner/app/src/main/AndroidManifest.xml
-		ADDED from /Users/sachin_rammoorthy/Downloads/TravelPlanner/app/src/main/AndroidManifest.xml:2:1-31:12
+		ADDED from /Users/sachin_rammoorthy/Downloads/TravelPlanner/app/src/main/AndroidManifest.xml:2:1-34:12
 		INJECTED from /Users/sachin_rammoorthy/Downloads/TravelPlanner/app/src/main/AndroidManifest.xml
 	xmlns:android
 		ADDED from /Users/sachin_rammoorthy/Downloads/TravelPlanner/app/src/main/AndroidManifest.xml:2:11-69
 application
-ADDED from /Users/sachin_rammoorthy/Downloads/TravelPlanner/app/src/main/AndroidManifest.xml:5:5-24:19
+ADDED from /Users/sachin_rammoorthy/Downloads/TravelPlanner/app/src/main/AndroidManifest.xml:5:5-26:19
 MERGED from [com.android.support:design:28.0.0] /Users/sachin_rammoorthy/.gradle/caches/transforms-1/files-1.1/design-28.0.0.aar/d77ea5ec65dca8b9eb2bef91e3f3e041/AndroidManifest.xml:22:5-20
 MERGED from [com.android.support:design:28.0.0] /Users/sachin_rammoorthy/.gradle/caches/transforms-1/files-1.1/design-28.0.0.aar/d77ea5ec65dca8b9eb2bef91e3f3e041/AndroidManifest.xml:22:5-20
+MERGED from [com.rapidapi:rapidconnect-android:0.1] /Users/sachin_rammoorthy/.gradle/caches/transforms-1/files-1.1/rapidconnect-android-0.1.aar/8e20c435186a5fef6ca397c24fdb6533/AndroidManifest.xml:11:5-15:19
+MERGED from [com.rapidapi:rapidconnect-android:0.1] /Users/sachin_rammoorthy/.gradle/caches/transforms-1/files-1.1/rapidconnect-android-0.1.aar/8e20c435186a5fef6ca397c24fdb6533/AndroidManifest.xml:11:5-15:19
 MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /Users/sachin_rammoorthy/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.3.aar/1fe55902e85b05ba3d7b5ca408cc346b/AndroidManifest.xml:9:5-20
 MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /Users/sachin_rammoorthy/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.3.aar/1fe55902e85b05ba3d7b5ca408cc346b/AndroidManifest.xml:9:5-20
 MERGED from [com.android.support:support-compat:28.0.0] /Users/sachin_rammoorthy/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/0fa81edfff8e8f5162f369552820261b/AndroidManifest.xml:22:5-94
@@ -70,6 +73,8 @@ MERGED from [org.tensorflow:tensorflow-lite:2.1.0] /Users/sachin_rammoorthy/.gra
 MERGED from [org.tensorflow:tensorflow-lite:2.1.0] /Users/sachin_rammoorthy/.gradle/caches/transforms-1/files-1.1/tensorflow-lite-2.1.0.aar/6b585506bf0cc5f30606bce32306e533/AndroidManifest.xml:8:5-20
 	android:appComponentFactory
 		ADDED from [com.android.support:support-compat:28.0.0] /Users/sachin_rammoorthy/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/0fa81edfff8e8f5162f369552820261b/AndroidManifest.xml:22:18-91
+	android:supportsRtl
+		ADDED from [com.rapidapi:rapidconnect-android:0.1] /Users/sachin_rammoorthy/.gradle/caches/transforms-1/files-1.1/rapidconnect-android-0.1.aar/8e20c435186a5fef6ca397c24fdb6533/AndroidManifest.xml:14:9-35
 	android:label
 		ADDED from /Users/sachin_rammoorthy/Downloads/TravelPlanner/app/src/main/AndroidManifest.xml:8:9-41
 	android:icon
@@ -78,52 +83,64 @@ MERGED from [org.tensorflow:tensorflow-lite:2.1.0] /Users/sachin_rammoorthy/.gra
 		ADDED from /Users/sachin_rammoorthy/Downloads/TravelPlanner/app/src/main/AndroidManifest.xml:6:9-35
 	android:theme
 		ADDED from /Users/sachin_rammoorthy/Downloads/TravelPlanner/app/src/main/AndroidManifest.xml:9:9-45
+activity#com.example.android.tflitecamerademo.InfoActivity
+ADDED from /Users/sachin_rammoorthy/Downloads/TravelPlanner/app/src/main/AndroidManifest.xml:10:9-90
+	android:theme
+		ADDED from /Users/sachin_rammoorthy/Downloads/TravelPlanner/app/src/main/AndroidManifest.xml:10:48-78
+	android:name
+		ADDED from /Users/sachin_rammoorthy/Downloads/TravelPlanner/app/src/main/AndroidManifest.xml:10:19-47
 activity#com.example.android.tflitecamerademo.InputDestinationsActivity
-ADDED from /Users/sachin_rammoorthy/Downloads/TravelPlanner/app/src/main/AndroidManifest.xml:10:9-103
+ADDED from /Users/sachin_rammoorthy/Downloads/TravelPlanner/app/src/main/AndroidManifest.xml:11:9-13:46
 	android:theme
-		ADDED from /Users/sachin_rammoorthy/Downloads/TravelPlanner/app/src/main/AndroidManifest.xml:10:61-91
+		ADDED from /Users/sachin_rammoorthy/Downloads/TravelPlanner/app/src/main/AndroidManifest.xml:13:13-43
 	android:name
-		ADDED from /Users/sachin_rammoorthy/Downloads/TravelPlanner/app/src/main/AndroidManifest.xml:10:19-60
+		ADDED from /Users/sachin_rammoorthy/Downloads/TravelPlanner/app/src/main/AndroidManifest.xml:12:13-54
 activity#com.example.android.tflitecamerademo.StartActivity
-ADDED from /Users/sachin_rammoorthy/Downloads/TravelPlanner/app/src/main/AndroidManifest.xml:11:9-18:20
+ADDED from /Users/sachin_rammoorthy/Downloads/TravelPlanner/app/src/main/AndroidManifest.xml:14:9-22:20
 	android:theme
-		ADDED from /Users/sachin_rammoorthy/Downloads/TravelPlanner/app/src/main/AndroidManifest.xml:12:13-43
+		ADDED from /Users/sachin_rammoorthy/Downloads/TravelPlanner/app/src/main/AndroidManifest.xml:16:13-43
 	android:name
-		ADDED from /Users/sachin_rammoorthy/Downloads/TravelPlanner/app/src/main/AndroidManifest.xml:11:19-48
+		ADDED from /Users/sachin_rammoorthy/Downloads/TravelPlanner/app/src/main/AndroidManifest.xml:15:13-42
 intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
-ADDED from /Users/sachin_rammoorthy/Downloads/TravelPlanner/app/src/main/AndroidManifest.xml:13:13-17:29
+ADDED from /Users/sachin_rammoorthy/Downloads/TravelPlanner/app/src/main/AndroidManifest.xml:17:13-21:29
 action#android.intent.action.MAIN
-ADDED from /Users/sachin_rammoorthy/Downloads/TravelPlanner/app/src/main/AndroidManifest.xml:14:17-69
+ADDED from /Users/sachin_rammoorthy/Downloads/TravelPlanner/app/src/main/AndroidManifest.xml:18:17-69
 	android:name
-		ADDED from /Users/sachin_rammoorthy/Downloads/TravelPlanner/app/src/main/AndroidManifest.xml:14:25-66
+		ADDED from /Users/sachin_rammoorthy/Downloads/TravelPlanner/app/src/main/AndroidManifest.xml:18:25-66
 category#android.intent.category.LAUNCHER
-ADDED from /Users/sachin_rammoorthy/Downloads/TravelPlanner/app/src/main/AndroidManifest.xml:16:17-77
+ADDED from /Users/sachin_rammoorthy/Downloads/TravelPlanner/app/src/main/AndroidManifest.xml:20:17-77
 	android:name
-		ADDED from /Users/sachin_rammoorthy/Downloads/TravelPlanner/app/src/main/AndroidManifest.xml:16:27-74
+		ADDED from /Users/sachin_rammoorthy/Downloads/TravelPlanner/app/src/main/AndroidManifest.xml:20:27-74
 activity#com.example.android.tflitecamerademo.CameraActivity
-ADDED from /Users/sachin_rammoorthy/Downloads/TravelPlanner/app/src/main/AndroidManifest.xml:19:9-23:20
+ADDED from /Users/sachin_rammoorthy/Downloads/TravelPlanner/app/src/main/AndroidManifest.xml:23:9-25:57
 	android:label
-		ADDED from /Users/sachin_rammoorthy/Downloads/TravelPlanner/app/src/main/AndroidManifest.xml:21:13-45
+		ADDED from /Users/sachin_rammoorthy/Downloads/TravelPlanner/app/src/main/AndroidManifest.xml:25:13-45
 	android:name
-		ADDED from /Users/sachin_rammoorthy/Downloads/TravelPlanner/app/src/main/AndroidManifest.xml:20:13-43
-uses-feature#android.hardware.camera
-ADDED from /Users/sachin_rammoorthy/Downloads/TravelPlanner/app/src/main/AndroidManifest.xml:25:5-60
-	android:name
-		ADDED from /Users/sachin_rammoorthy/Downloads/TravelPlanner/app/src/main/AndroidManifest.xml:25:19-57
+		ADDED from /Users/sachin_rammoorthy/Downloads/TravelPlanner/app/src/main/AndroidManifest.xml:24:13-43
 uses-feature#android.hardware.camera.autofocus
 ADDED from /Users/sachin_rammoorthy/Downloads/TravelPlanner/app/src/main/AndroidManifest.xml:27:5-70
 	android:name
 		ADDED from /Users/sachin_rammoorthy/Downloads/TravelPlanner/app/src/main/AndroidManifest.xml:27:19-67
-uses-permission#android.permission.CAMERA
-ADDED from /Users/sachin_rammoorthy/Downloads/TravelPlanner/app/src/main/AndroidManifest.xml:29:5-65
+uses-feature#android.hardware.camera
+ADDED from /Users/sachin_rammoorthy/Downloads/TravelPlanner/app/src/main/AndroidManifest.xml:29:5-60
 	android:name
-		ADDED from /Users/sachin_rammoorthy/Downloads/TravelPlanner/app/src/main/AndroidManifest.xml:29:22-62
+		ADDED from /Users/sachin_rammoorthy/Downloads/TravelPlanner/app/src/main/AndroidManifest.xml:29:19-57
+uses-permission#android.permission.INTERNET
+ADDED from /Users/sachin_rammoorthy/Downloads/TravelPlanner/app/src/main/AndroidManifest.xml:30:5-67
+	android:name
+		ADDED from /Users/sachin_rammoorthy/Downloads/TravelPlanner/app/src/main/AndroidManifest.xml:30:22-64
+uses-permission#android.permission.CAMERA
+ADDED from /Users/sachin_rammoorthy/Downloads/TravelPlanner/app/src/main/AndroidManifest.xml:32:5-65
+	android:name
+		ADDED from /Users/sachin_rammoorthy/Downloads/TravelPlanner/app/src/main/AndroidManifest.xml:32:22-62
 uses-sdk
 INJECTED from /Users/sachin_rammoorthy/Downloads/TravelPlanner/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from /Users/sachin_rammoorthy/Downloads/TravelPlanner/app/src/main/AndroidManifest.xml
 INJECTED from /Users/sachin_rammoorthy/Downloads/TravelPlanner/app/src/main/AndroidManifest.xml
 MERGED from [com.android.support:design:28.0.0] /Users/sachin_rammoorthy/.gradle/caches/transforms-1/files-1.1/design-28.0.0.aar/d77ea5ec65dca8b9eb2bef91e3f3e041/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:design:28.0.0] /Users/sachin_rammoorthy/.gradle/caches/transforms-1/files-1.1/design-28.0.0.aar/d77ea5ec65dca8b9eb2bef91e3f3e041/AndroidManifest.xml:20:5-44
+MERGED from [com.rapidapi:rapidconnect-android:0.1] /Users/sachin_rammoorthy/.gradle/caches/transforms-1/files-1.1/rapidconnect-android-0.1.aar/8e20c435186a5fef6ca397c24fdb6533/AndroidManifest.xml:7:5-9:41
+MERGED from [com.rapidapi:rapidconnect-android:0.1] /Users/sachin_rammoorthy/.gradle/caches/transforms-1/files-1.1/rapidconnect-android-0.1.aar/8e20c435186a5fef6ca397c24fdb6533/AndroidManifest.xml:7:5-9:41
 MERGED from [com.android.support:appcompat-v7:28.0.0] /Users/sachin_rammoorthy/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/215006870cb9ad8b201ed5ea70fe0952/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:appcompat-v7:28.0.0] /Users/sachin_rammoorthy/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/215006870cb9ad8b201ed5ea70fe0952/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /Users/sachin_rammoorthy/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.3.aar/1fe55902e85b05ba3d7b5ca408cc346b/AndroidManifest.xml:5:5-7:41
@@ -134,16 +151,14 @@ MERGED from [com.android.support:support-v4:28.0.0] /Users/sachin_rammoorthy/.gr
 MERGED from [com.android.support:support-v4:28.0.0] /Users/sachin_rammoorthy/.gradle/caches/transforms-1/files-1.1/support-v4-28.0.0.aar/6d535861457a4fbfa221b5a8e4d0415b/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:support-fragment:28.0.0] /Users/sachin_rammoorthy/.gradle/caches/transforms-1/files-1.1/support-fragment-28.0.0.aar/d3d56ed923bec46c21d5815d77387457/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:support-fragment:28.0.0] /Users/sachin_rammoorthy/.gradle/caches/transforms-1/files-1.1/support-fragment-28.0.0.aar/d3d56ed923bec46c21d5815d77387457/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:animated-vector-drawable:28.0.0] /Users/sachin_rammoorthy/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-28.0.0.aar/5d529de96307de4871304fb999c857a5/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:animated-vector-drawable:28.0.0] /Users/sachin_rammoorthy/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-28.0.0.aar/5d529de96307de4871304fb999c857a5/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:recyclerview-v7:28.0.0] /Users/sachin_rammoorthy/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-28.0.0.aar/da86a0e2d8c9d9bf47abc4be9b1e7c30/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:recyclerview-v7:28.0.0] /Users/sachin_rammoorthy/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-28.0.0.aar/da86a0e2d8c9d9bf47abc4be9b1e7c30/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] /Users/sachin_rammoorthy/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-28.0.0.aar/5d529de96307de4871304fb999c857a5/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] /Users/sachin_rammoorthy/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-28.0.0.aar/5d529de96307de4871304fb999c857a5/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:support-core-ui:28.0.0] /Users/sachin_rammoorthy/.gradle/caches/transforms-1/files-1.1/support-core-ui-28.0.0.aar/23f76294b052791f8b6b4bd6968b8f80/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:support-core-ui:28.0.0] /Users/sachin_rammoorthy/.gradle/caches/transforms-1/files-1.1/support-core-ui-28.0.0.aar/23f76294b052791f8b6b4bd6968b8f80/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:support-core-utils:28.0.0] /Users/sachin_rammoorthy/.gradle/caches/transforms-1/files-1.1/support-core-utils-28.0.0.aar/73025fd082642d99cfd7969f17f20402/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:support-core-utils:28.0.0] /Users/sachin_rammoorthy/.gradle/caches/transforms-1/files-1.1/support-core-utils-28.0.0.aar/73025fd082642d99cfd7969f17f20402/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-vector-drawable:28.0.0] /Users/sachin_rammoorthy/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-28.0.0.aar/58a8384fca5d2e9503f9c5e63ac30b3f/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-vector-drawable:28.0.0] /Users/sachin_rammoorthy/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-28.0.0.aar/58a8384fca5d2e9503f9c5e63ac30b3f/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:transition:28.0.0] /Users/sachin_rammoorthy/.gradle/caches/transforms-1/files-1.1/transition-28.0.0.aar/c37a627a5debb9d2c4b61a3eae18569b/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:transition:28.0.0] /Users/sachin_rammoorthy/.gradle/caches/transforms-1/files-1.1/transition-28.0.0.aar/c37a627a5debb9d2c4b61a3eae18569b/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:loader:28.0.0] /Users/sachin_rammoorthy/.gradle/caches/transforms-1/files-1.1/loader-28.0.0.aar/8dddf2caed3dfba19125d01d85c3a622/AndroidManifest.xml:20:5-44
@@ -164,12 +179,12 @@ MERGED from [com.android.support:asynclayoutinflater:28.0.0] /Users/sachin_rammo
 MERGED from [com.android.support:asynclayoutinflater:28.0.0] /Users/sachin_rammoorthy/.gradle/caches/transforms-1/files-1.1/asynclayoutinflater-28.0.0.aar/bd802dcb218e3b1dca9a596c2cee6c88/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:support-media-compat:28.0.0] /Users/sachin_rammoorthy/.gradle/caches/transforms-1/files-1.1/support-media-compat-28.0.0.aar/ee6adb639e47ec5843afd899b4e4f4a6/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:support-media-compat:28.0.0] /Users/sachin_rammoorthy/.gradle/caches/transforms-1/files-1.1/support-media-compat-28.0.0.aar/ee6adb639e47ec5843afd899b4e4f4a6/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0] /Users/sachin_rammoorthy/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-28.0.0.aar/58a8384fca5d2e9503f9c5e63ac30b3f/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0] /Users/sachin_rammoorthy/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-28.0.0.aar/58a8384fca5d2e9503f9c5e63ac30b3f/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:support-compat:28.0.0] /Users/sachin_rammoorthy/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/0fa81edfff8e8f5162f369552820261b/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:support-compat:28.0.0] /Users/sachin_rammoorthy/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/0fa81edfff8e8f5162f369552820261b/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/sachin_rammoorthy/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/8abbacf0e3c780f41aa05fd2a6a32532/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/sachin_rammoorthy/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/8abbacf0e3c780f41aa05fd2a6a32532/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:cursoradapter:28.0.0] /Users/sachin_rammoorthy/.gradle/caches/transforms-1/files-1.1/cursoradapter-28.0.0.aar/355ff165aec11ea3cc789a4b7f86afcc/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:cursoradapter:28.0.0] /Users/sachin_rammoorthy/.gradle/caches/transforms-1/files-1.1/cursoradapter-28.0.0.aar/355ff165aec11ea3cc789a4b7f86afcc/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:cardview-v7:28.0.0] /Users/sachin_rammoorthy/.gradle/caches/transforms-1/files-1.1/cardview-v7-28.0.0.aar/c7451a31a15ec888c8139fb5780f61c6/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:cardview-v7:28.0.0] /Users/sachin_rammoorthy/.gradle/caches/transforms-1/files-1.1/cardview-v7-28.0.0.aar/c7451a31a15ec888c8139fb5780f61c6/AndroidManifest.xml:20:5-44
 MERGED from [android.arch.lifecycle:runtime:1.1.1] /Users/sachin_rammoorthy/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/e9c23293f6c31f151fc15dc8c993144e/AndroidManifest.xml:20:5-44
@@ -184,6 +199,8 @@ MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /Users/sachin_rammoorthy/.g
 MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /Users/sachin_rammoorthy/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.1.aar/fecfd9ef39341273fbaf5973e3f4fd60/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:interpolator:28.0.0] /Users/sachin_rammoorthy/.gradle/caches/transforms-1/files-1.1/interpolator-28.0.0.aar/123dfa3b682266b36a2f12ba32fe901d/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:interpolator:28.0.0] /Users/sachin_rammoorthy/.gradle/caches/transforms-1/files-1.1/interpolator-28.0.0.aar/123dfa3b682266b36a2f12ba32fe901d/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] /Users/sachin_rammoorthy/.gradle/caches/transforms-1/files-1.1/cursoradapter-28.0.0.aar/355ff165aec11ea3cc789a4b7f86afcc/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] /Users/sachin_rammoorthy/.gradle/caches/transforms-1/files-1.1/cursoradapter-28.0.0.aar/355ff165aec11ea3cc789a4b7f86afcc/AndroidManifest.xml:20:5-44
 MERGED from [android.arch.lifecycle:livedata:1.1.1] /Users/sachin_rammoorthy/.gradle/caches/transforms-1/files-1.1/livedata-1.1.1.aar/6c2a8f108f26ecf4279c6b09ee4bd8a9/AndroidManifest.xml:20:5-44
 MERGED from [android.arch.lifecycle:livedata:1.1.1] /Users/sachin_rammoorthy/.gradle/caches/transforms-1/files-1.1/livedata-1.1.1.aar/6c2a8f108f26ecf4279c6b09ee4bd8a9/AndroidManifest.xml:20:5-44
 MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /Users/sachin_rammoorthy/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.1.aar/48f065f22ed303cb948615b0b23fe4bd/AndroidManifest.xml:20:5-44

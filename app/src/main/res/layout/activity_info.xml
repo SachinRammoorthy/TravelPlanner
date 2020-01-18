@@ -1,0 +1,88 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.android.tflitecamerademo.InputDestinationsActivity">
+
+    <android.support.v7.widget.CardView
+        android:elevation="2dp"
+        android:id="@+id/discover"
+        android:layout_width="match_parent"
+        app:cardCornerRadius="5dp"
+        android:layout_height="250dp"
+        android:layout_margin="5dp">
+
+
+        <ImageView
+            android:id="@+id/img"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/eiffel1"/>
+
+        <TextView
+            android:id="@+id/name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Eiffel Tower"
+            android:textColor="#ffffff"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:layout_gravity="bottom"
+            android:padding="20dp"
+            android:layout_marginBottom="10dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Paris, France"
+            android:textColor="#ffffff"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:id="@+id/city_text"
+            android:layout_gravity="bottom"
+            android:paddingLeft="20dp"
+            android:paddingBottom="10dp"/>
+
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        android:elevation="2dp"
+        android:layout_width="match_parent"
+        app:cardCornerRadius="5dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Did you know?"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="60dp"
+            android:layout_marginBottom="25dp"
+            android:textSize="20sp"
+            android:id="@+id/info_text"
+            android:text="Named after the engineer who built it (Gustave Eiffel), the Eiffel Tower is 324m in height. Constructed from 1887 to 1889 as the entrance to the 1889 World's Fair, it was initially criticized by some of France's leading artists and intellectuals for its design, but it has become a global cultural icon of France and one of the most recognizable structures in the world. The Eiffel Tower is the most-visited paid monument in the world; 6.91 million people ascended it in 2015."/>
+
+    </android.support.v7.widget.CardView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Explore on the Liquid Galaxy!"
+        android:textAllCaps="true"
+        android:textColor="@android:color/holo_red_dark"
+        android:layout_margin="30dp"/>
+
+
+
+</LinearLayout>
