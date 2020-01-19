@@ -1,21 +1,55 @@
 package com.example;
 
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
+import java.net.HttpURLConnection;
+import java.net.URL;
+
+import static org.apache.http.protocol.HTTP.USER_AGENT;
+
 public class TSP {
+    static String[] destinations = {"BLR", "FCO", "CDG", "LHR", "SVO"};
     String megaString = "";
-    static int[][] matrix = {{0, 4, 3, 2, 5}, {6, 0, 11, 17, 23}, {1, 2, 0, 5, 45}, {27, 32, 6, 0, 56}, {1, 2, 6, 7, 0}};
-    int best = 10000;
+    static int[][] matrix = new int[destinations.length][destinations.length];
+    static String finalRouteNumbers;
+    static String[] finalRoute;
+
+    int best = 100000000;
 
     public static void main(String[] args) {
+        for(int i=0; i< destinations.length; i++){
+            for(int j=0; j<destinations.length; j++){
+                System.out.println(destinations[i] + " " + destinations[j]);
+                try {
+                    int weight = populateMatrix(destinations[i], destinations[j], "2020-06-15");
+                    matrix[i][j] = weight;
 
-        int[] arr = {1, 2, 3, 4};
-        String str = "1234";
+
+                } catch (IOException e) {
+                    e.printStackTrace();
+                }
+
+            }
+        }
+
+        String str = "";
+        for(int i = 1; i<destinations.length; i++){
+            str = str + i;
+        }
         int n = str.length();
         TSP tsp = new TSP();
         tsp.calculatePerm(str, 0, n - 1);
-        int weight = calculateWeight(matrix, 1, 3);
-        //System.out.println(weight);
+        System.out.println(finalRouteNumbers.substring(6, 7));
 
-    }
+        for(int i =2; i<=finalRouteNumbers.length(); i++){
+            int index = Integer.parseInt(finalRouteNumbers.substring(i-1, i));
+            finalRoute[i] = destinations[index];
+
+        }
+
+        }
+        //System.out.println(weight);
 
 
     public String swap(String a, int i, int j) {
@@ -42,9 +76,10 @@ public class TSP {
 
 
     public void calculatePerm(String str, int l, int r) {
+
         String[] perm = new String[r];
         if (l == r) {
-            megaString = megaString + "0"+ str + "0, ";
+            megaString = megaString + "0"+ str + "0,";
             if (megaString.length() == 4*calcFactorial(str.length()) + str.length() * (calcFactorial(str.length()))) {
                 System.out.println(megaString);
                 String[] allpaths = new String[(int)calcFactorial(str.length())];
@@ -80,7 +115,7 @@ public class TSP {
             for (int j = 0; j < temp.length-1; j++) {
                 int weight = calculateWeight(matrix, Integer.parseInt(temp[j]), Integer.parseInt(temp[j + 1]));
                 if (weight == 0){
-
+                    sum = 1000000;
                 }
                 else{
                     sum = sum + weight;
@@ -93,7 +128,51 @@ public class TSP {
             }
         }
         System.out.println(best + "+");
-        System.out.println(allpaths[routeno]);
+        finalRouteNumbers = allpaths[routeno];
+        System.out.println(finalRouteNumbers);
+    }
+
+    public static int populateMatrix(String origin, String destination, String date) throws IOException{
+        int price = 0;
+        if( origin.equals(destination)){
+            price = 0;
+            System.out.println(price);
+        }
+        else {
+
+            URL obj = new URL("https://ff4fb229.ngrok.io/"+origin+"/"+destination+"/"+date);
+            HttpURLConnection con = (HttpURLConnection) obj.openConnection();
+            con.setRequestMethod("GET");
+            con.setRequestProperty("User-Agent", USER_AGENT);
+            int responseCode = con.getResponseCode();
+            if (responseCode == HttpURLConnection.HTTP_OK) { // success
+                BufferedReader in = new BufferedReader(new InputStreamReader(
+                        con.getInputStream()));
+                String inputLine;
+                StringBuffer response = new StringBuffer();
+
+                while ((inputLine = in.readLine()) != null) {
+                    response.append(inputLine);
+                }
+                in.close();
+
+                String wholeJson = response.toString();
+                if (!wholeJson.equals(null)){
+                    price = Integer.parseInt(wholeJson);
+                    System.out.println(price);
+
+                }
+
+
+
+
+                // print result
+//            System.out.println(response.toString());
+            } else {
+                System.out.println("GET request not worked");
+            }
+        }
+        return price;
     }
 
 

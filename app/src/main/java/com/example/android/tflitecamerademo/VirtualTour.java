@@ -3,6 +3,7 @@ package com.example.android.tflitecamerademo;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.widget.ImageView;
+import android.widget.Toast;
 
 public class VirtualTour extends AppCompatActivity {
 
@@ -16,5 +17,8 @@ public class VirtualTour extends AppCompatActivity {
 
         btnPrevious = (ImageView) findViewById(R.id.btn_previous);
         btnNext = (ImageView) findViewById(R.id.btn_next);
+
+        String megaString = getIntent().getStringExtra("MONUMENTS");
+        Toast.makeText(VirtualTour.this, megaString, Toast.LENGTH_SHORT).show();
     }
 }
