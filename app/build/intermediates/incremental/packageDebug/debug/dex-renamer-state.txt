@@ -1,4 +1,4 @@
-#Sun Jan 19 04:03:50 IST 2020
+#Sun Jan 19 09:07:21 IST 2020
 base.0=/Users/sachin_rammoorthy/Downloads/TravelPlanner/app/build/intermediates/transforms/dexMerger/debug/0
 renamed.0=classes.dex
 file.0=/Users/sachin_rammoorthy/Downloads/TravelPlanner/app/build/intermediates/transforms/dexMerger/debug/0/classes.dex

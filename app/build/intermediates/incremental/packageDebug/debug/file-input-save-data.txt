@@ -1,5 +1,5 @@
 #Internal package file, do not edit.
-#Sun Jan 19 04:03:53 IST 2020
+#Sun Jan 19 09:07:22 IST 2020
 210.set=ANDROID_RESOURCE
 282.file=/Users/sachin_rammoorthy/Downloads/TravelPlanner/app/build/intermediates/assets/debug/BUILD
 14.set=ANDROID_RESOURCE
