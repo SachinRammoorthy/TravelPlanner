@@ -19,6 +19,7 @@
         android:layout_height="wrap_content"
         android:text="Let us plan the perfect trip for you!"
         android:layout_marginLeft="10dp"
+        android:fontFamily="@font/product_sans_regular"
         android:layout_marginBottom="10dp"/>
 
     <LinearLayout
@@ -33,6 +34,7 @@
 
             <android.support.design.widget.TextInputEditText
                 android:layout_width="150dp"
+                android:fontFamily="@font/product_sans_regular"
                 android:layout_height="wrap_content"
                 android:id="@+id/origin_text"
                 android:hint="Origin Airport"
@@ -47,6 +49,7 @@
 
             <android.support.design.widget.TextInputEditText
                 android:layout_width="150dp"
+                android:fontFamily="@font/product_sans_regular"
                 android:layout_height="wrap_content"
                 android:hint="Departure (dd/mm/yy)"
                 android:inputType="date"
@@ -69,6 +72,7 @@
 
             <android.support.design.widget.TextInputEditText
                 android:layout_width="150dp"
+                android:fontFamily="@font/product_sans_regular"
                 android:layout_height="wrap_content"
                 android:hint="Destination #1"
                 android:id="@+id/dest_1_text"
@@ -86,6 +90,7 @@
                 android:layout_height="wrap_content"
                 android:hint="Days in Dest. #1"
                 android:inputType="number"
+                android:fontFamily="@font/product_sans_regular"
                 android:id="@+id/days_dest_1_text"
                 android:textSize="20sp" />
 
@@ -107,6 +112,7 @@
             <android.support.design.widget.TextInputEditText
                 android:layout_width="150dp"
                 android:layout_height="wrap_content"
+                android:fontFamily="@font/product_sans_regular"
                 android:hint="Destination #2"
                 android:id="@+id/dest_2_text"
                 android:textSize="20sp" />
@@ -123,6 +129,7 @@
                 android:layout_height="wrap_content"
                 android:hint="Days in Dest. #2"
                 android:inputType="number"
+                android:fontFamily="@font/product_sans_regular"
                 android:id="@+id/days_dest_2_text"
                 android:textSize="20sp" />
 
@@ -145,6 +152,7 @@
                 android:layout_width="150dp"
                 android:layout_height="wrap_content"
                 android:hint="Destination #3"
+                android:fontFamily="@font/product_sans_regular"
                 android:id="@+id/dest_3_text"
                 android:textSize="20sp" />
 
@@ -160,6 +168,7 @@
                 android:layout_height="wrap_content"
                 android:hint="Days in Dest. #3"
                 android:inputType="number"
+                android:fontFamily="@font/product_sans_regular"
                 android:id="@+id/days_dest_3_text"
                 android:textSize="20sp" />
 
@@ -167,19 +176,49 @@
 
     </LinearLayout>
 
-    <TextView
-        android:layout_width="wrap_content"
+    <LinearLayout
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Add More Destinations"
-        android:textAllCaps="true"
-        android:id="@+id/add_more_text"
-        android:layout_margin="15dp"
-        android:textColor="@android:color/holo_red_dark"/>
+        android:orientation="horizontal">
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp">
+
+            <android.support.design.widget.TextInputEditText
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:hint="Destination #4"
+                android:fontFamily="@font/product_sans_regular"
+                android:id="@+id/dest_4_text"
+                android:textSize="20sp" />
+
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp">
+
+            <android.support.design.widget.TextInputEditText
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:hint="Days in Dest. #4"
+                android:inputType="number"
+                android:fontFamily="@font/product_sans_regular"
+                android:id="@+id/days_dest_4_text"
+                android:textSize="20sp" />
+
+        </android.support.design.widget.TextInputLayout>
+
+    </LinearLayout>
 
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_margin="15dp"
+        android:fontFamily="@font/product_sans_regular"
         android:id="@+id/go_tour_button"
         android:text="Go on a virtual tour!"/>
 

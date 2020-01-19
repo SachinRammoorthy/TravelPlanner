@@ -23,7 +23,26 @@
                     }
                 },
                 {
-                    "source": "/Users/sachin_rammoorthy/.gradle/caches/transforms-1/files-1.1/design-28.0.0.aar/d77ea5ec65dca8b9eb2bef91e3f3e041/res/values-v21/values-v21.xml",
+                    "source": "/Users/sachin_rammoorthy/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/6aa82a68e4f18a421608a6381ec5adb1/res/values-v21/values-v21.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,13",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,159,223,290,354,470,596,722,850,1022",
+                        "endLines": "2,3,4,5,6,7,8,9,12,17",
+                        "endColumns": "103,63,66,63,115,125,125,127,12,12",
+                        "endOffsets": "154,218,285,349,465,591,717,845,1017,1355"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,263,264,271,275,313,316",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,159,223,290,19262,19378,19835,20129,22218,22390",
+                        "endLines": "2,3,4,5,263,264,271,275,315,320",
+                        "endColumns": "103,63,66,63,115,125,125,127,12,12",
+                        "endOffsets": "154,218,285,349,19373,19499,19956,20252,22385,22723"
+                    }
+                },
+                {
+                    "source": "/Users/sachin_rammoorthy/.gradle/caches/transforms-1/files-1.1/design-28.0.0.aar/cd0c0bb8271947f164b1c2619c0dbfec/res/values-v21/values-v21.xml",
                     "from": {
                         "startLines": "2,10,18,26",
                         "startColumns": "4,4,4,4",
@@ -42,7 +61,7 @@
                     }
                 },
                 {
-                    "source": "/Users/sachin_rammoorthy/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/215006870cb9ad8b201ed5ea70fe0952/res/values-v21/values-v21.xml",
+                    "source": "/Users/sachin_rammoorthy/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/804b81c4c3435487aa499eafed678cfd/res/values-v21/values-v21.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,17,19,20,21,22,24,26,27,28,29,30,32,34,36,38,40,42,43,48,50,52,53,54,56,58,59,60,61,62,63,107,110,154,157,160,162,164,166,169,171,174,175,176,179,180,181,182,183,184,187,188,190,192,194,196,200,202,203,204,205,207,211,213,215,216,217,218,219,221,222,223,233,234,235,247",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -61,7 +80,7 @@
                     }
                 },
                 {
-                    "source": "/Users/sachin_rammoorthy/.gradle/caches/transforms-1/files-1.1/support-media-compat-28.0.0.aar/ee6adb639e47ec5843afd899b4e4f4a6/res/values-v21/values-v21.xml",
+                    "source": "/Users/sachin_rammoorthy/.gradle/caches/transforms-1/files-1.1/support-media-compat-28.0.0.aar/e10636396e608953034ee082b369203c/res/values-v21/values-v21.xml",
                     "from": {
                         "startLines": "2,5,8,11",
                         "startColumns": "4,4,4,4",
@@ -77,25 +96,6 @@
                         "endLines": "267,270,274,278",
                         "endColumns": "12,12,12,12",
                         "endOffsets": "19667,19830,20124,20419"
-                    }
-                },
-                {
-                    "source": "/Users/sachin_rammoorthy/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/0fa81edfff8e8f5162f369552820261b/res/values-v21/values-v21.xml",
-                    "from": {
-                        "startLines": "2,3,4,5,6,7,8,9,10,13",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "55,159,223,290,354,470,596,722,850,1022",
-                        "endLines": "2,3,4,5,6,7,8,9,12,17",
-                        "endColumns": "103,63,66,63,115,125,125,127,12,12",
-                        "endOffsets": "154,218,285,349,465,591,717,845,1017,1355"
-                    },
-                    "to": {
-                        "startLines": "2,3,4,5,263,264,271,275,313,316",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "55,159,223,290,19262,19378,19835,20129,22218,22390",
-                        "endLines": "2,3,4,5,263,264,271,275,315,320",
-                        "endColumns": "103,63,66,63,115,125,125,127,12,12",
-                        "endOffsets": "154,218,285,349,19373,19499,19956,20252,22385,22723"
                     }
                 }
             ]

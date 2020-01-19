@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:gravity="center_vertical"
+    android:background="@drawable/earthbg"
+    tools:context="com.example.android.tflitecamerademo.VirtualTour">
+
+    <ImageView
+        android:layout_width="0dp"
+        android:layout_height="60dp"
+        android:layout_weight="1"
+        android:tint="#fff"
+        android:id="@+id/btn_previous"
+        android:src="@drawable/ic_keyboard_arrow_left_black_24dp"/>
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_weight="3"
+        android:layout_height="wrap_content"
+        android:textSize="60sp"
+        android:fontFamily="@font/product_sans_regular"
+        android:gravity="center_horizontal"
+        android:textColor="#fff"
+        android:text="Virtual Tour in Progress!"/>
+
+    <ImageView
+        android:layout_width="0dp"
+        android:layout_height="60dp"
+        android:tint="#fff"
+        android:layout_weight="1"
+        android:id="@+id/btn_next"
+        android:src="@drawable/ic_keyboard_arrow_right_black_24dp"/>
+
+
+</LinearLayout>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">733041026047-60cs44nc11almah86kq9fkdq9vunkvhh.apps.googleusercontent.com</string>
+    <string name="firebase_database_url" translatable="false">https://assistant-agent-92c2b.firebaseio.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">733041026047</string>
+    <string name="google_api_key" translatable="false">AIzaSyAIwTIMJzw9A84YhA_TbIamWPq8VxfnQvE</string>
+    <string name="google_app_id" translatable="false">1:733041026047:android:7bde7db5dbf5af7f</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyAIwTIMJzw9A84YhA_TbIamWPq8VxfnQvE</string>
+    <string name="google_storage_bucket" translatable="false">assistant-agent-92c2b.appspot.com</string>
+    <string name="project_id" translatable="false">assistant-agent-92c2b</string>
+</resources>
