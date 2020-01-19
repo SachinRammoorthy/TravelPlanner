@@ -35,6 +35,9 @@ android {
         sourceCompatibility JavaVersion.VERSION_1_8
         targetCompatibility JavaVersion.VERSION_1_8
     }
+    packagingOptions {
+        exclude 'META-INF/DEPENDENCIES'
+    }
 }
 
 repositories {
@@ -59,6 +62,8 @@ dependencies {
     implementation 'com.rapidapi:rapidconnect-android:0.1'
 
     implementation 'org.tensorflow:tensorflow-lite:+'
+
+    implementation 'org.apache.httpcomponents:httpclient:4.5.10'
 
     testImplementation 'junit:junit:4.12'
 }
